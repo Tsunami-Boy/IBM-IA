@@ -1,4 +1,4 @@
-Grupo 2
+# Grupo 2
 
 * Benjamín Daza
 * Juan Castañeda
@@ -27,7 +27,10 @@ Grupo 2
 
 ## Información - Pasos - Pseudocódigo
 
-´´´bash
+<img width="352" height="713" alt="image" src="https://github.com/user-attachments/assets/ecc0df84-485d-4c45-87d4-0649415f3f75" />
+
+
+```bash
 INICIO
   Cargar datos de Clientes, Ventas, Productos, Detalle_Ventas
 
@@ -53,6 +56,6 @@ INICIO
   Guardar_reportes()
 
 FIN
-´´´
+```
 
 
