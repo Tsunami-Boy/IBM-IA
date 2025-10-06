@@ -5,10 +5,15 @@ Repositorio destinado a almacenar actividades, ejercicios prácticos y material 
 ```bash
 IBM_IA
 ├── actividades_en_clases
-│   ├── aspectos.ipynb         #Aspectos importantes para tomar en cuenta
-│   └── ...
-└── ...
-    └── ...
+│   ├── Proyecto Aurelion                                 # Actividad grupal realizada en Clase 3 y documentada
+│   │   ├── Actividad.ipynb           
+│   │   └── README.md
+│   ├── aspectos.ipynb                                    # Aspectos importantes para tomar en cuenta
+│   └── clase_3.ipnyb                                     # Actividades realizadas en Clase 3
+├── material_asincronico
+│   ├── fundamentos_de_la_inteligencia_artificial.ipynb   # Material del curso asincrónico de IA
+│   └── agile_explorer.ipynb                              # Material del curso asincrónico de Agile
+└── README.md
 ```
 
 ## 📘 Documentación del Repositorio
