@@ -57,5 +57,6 @@ INICIO
 
 FIN
 ```
+## Sugerencias de Copilot
 
-
+Se siguió el paso a paso del archivo python, con el fin de aligerar el trabajo a realizar. 
