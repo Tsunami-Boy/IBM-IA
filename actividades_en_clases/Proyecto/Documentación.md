@@ -1,17 +1,19 @@
-# Grupo 2
+# 📋 Proyecto
 
-* Benjamín Daza
-* Juan Castañeda
-* Melany Jofré
-* Victor Bonilla
-* Ivan Ortiz
-* Adriana Legua
-* Diana Alva
-* Tatiana Pinzón
+### 🏢 Integrantes
 
-## Tema - Problema - Solución
+* ⭐ Benjamín Daza
+* ⭐ Juan Castañeda
+* ⭐ Melany Jofré
+* ⭐ Victor Bonilla
+* ⭐ Ivan Ortiz
+* ⭐ Adriana Legua
+* ⭐ Diana Alva
+* ⭐ Tatiana Pinzón
 
-**Tema:** Comportamiento de ventas y clientes.
+## ⚠️ Tema - Problema - Solución
+
+**Tema:** Comportamiento de ventas de productos respecto a sus categorías.
 
 **Problema:** No se logra identificar patrones de compra ni productos más rentables porque los datos están dispersos.
 
@@ -19,7 +21,11 @@
 
 ## Estructura - Tipo - Escala (de la BD)
 
-**Estructura:** base de datos estructurada (excel) y relacional. Conforme a lo anterior, las tablas a trabajar son las siguientes:
+**Estructura:** base de datos estructurada (excel) y relacional.
+
+**Escala:** se espera una escala mediana, ya que esta podría variar según la cantidad de ventas y clientes que interactúen con el sistema.
+
+Conforme a lo anterior, las tablas a trabajar son las siguientes:
 
 Tabla Clientes:
 * id_cliente (INT) (PK)
@@ -49,8 +55,6 @@ Ventas:
 * nombre_cliente (STRING)
 * email (STRING)
 * medio_pago (STRING)
-
-**Escala:** se espera una escala mediana, ya que esta podría variar según la cantidad de ventas y clientes que interactúen con el sistema.
 
 ## Información - Pasos - Pseudocódigo
 
