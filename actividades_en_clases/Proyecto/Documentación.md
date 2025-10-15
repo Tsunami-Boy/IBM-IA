@@ -1,6 +1,6 @@
 # 📋 Proyecto
 
-### 🏢 Integrantes
+### 🏢 Integrantes Grupo 2
 
 * ⭐ Benjamín Daza
 * ⭐ Juan Castañeda
