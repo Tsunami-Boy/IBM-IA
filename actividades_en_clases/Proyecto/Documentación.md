@@ -92,7 +92,7 @@ INICIO
   FIN
 
   total_generado_cat ← calcular_dinero_generado_por_categoria()
-  porcentaje_participacion ← calcular_porcentaje_participacion_producto() # Por cada producto y su categoria: total_importe / total_generado_cat
+  porcentaje_participacion ← calcular_porcentaje_participacion_producto()
 
   PARA cada producto EN Productos HACER
       SI procentaje_participacion[producto] > 80% ENTONCES
@@ -108,6 +108,12 @@ INICIO
 
 FIN
 ```
-## Sugerencias de Copilot
+## 🤖 Sugerencias de Copilot
 
-Se siguió el paso a paso del archivo python, con el fin de aligerar el trabajo a realizar. 
+</> Prompt 1: Soy estudiante de Python, crea un programa que pueda mostrar la documentación de forma interactiva, a través de los distintos temas del documento. Las interacciones solo deben ser por consola y a través del ingreso de números.
+
+* Se siguió la recomendación hecha por la IA, solo cambiando un par de detalles de la forma en que se muestran por terminal la documentación.
+
+</> Prompt 2: Soy colaborador en un grupo de desarrollo, hazme una estructura de documentación a partir de los siguientes temas: [temas], que sea separado por subtemas. Recomienda solo la estructura, no el desarrollo.
+
+* Se siguió la recomendación hecha por la IA, complementando con diagramas y pseudocódigo.
