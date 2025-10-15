@@ -8,7 +8,8 @@ def mostrar_integrantes():
           ⭐ Ivan Ortiz
           ⭐ Adriana Legua
           ⭐ Diana Alva
-          ⭐ Tatiana Pinzón""")
+          ⭐ Tatiana Pinzón
+    """)
 
 def mostrar_preguntas_previas():
     print("""
@@ -109,7 +110,6 @@ def mostrar_pseudocodigo():
     Guardar_reportes()
 
     FIN
-
 """)
     
 def mostrar_ia():
@@ -121,7 +121,6 @@ def mostrar_ia():
     </> Prompt 2: Soy colaborador en un grupo de desarrollo, hazme una estructura de documentación a partir de los siguientes temas: [temas], que sea separado por subtemas. Recomienda solo la estructura, no el desarrollo.
 
     * Se siguió la recomendación hecha por la IA, complementando con diagramas y pseudocódigo.
-
     """)
 
 def menu():
@@ -137,7 +136,7 @@ def menu():
         print("6. 🏢 Integrantes Grupo 2")
         print("7. Salir")
 
-        opcion = input("Selecciona una opción (1-5): ")
+        opcion = input("Selecciona una opción (1-7): ")
 
         if opcion == "1":
             mostrar_preguntas_previas()
