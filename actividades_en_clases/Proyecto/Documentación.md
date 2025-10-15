@@ -11,15 +11,23 @@
 * ⭐ Diana Alva
 * ⭐ Tatiana Pinzón
 
+## ❓ Preguntas Previas
+
+* ¿Qué enfoque queremos abarcar?
+* ¿Cómo se comportan las ventas?
+* ¿Existen productos que generan mucho dinero?
+* ¿Cuáles serán los productos más vendidos?
+* ¿Los productos más vendidos son los que generan más dinero?
+
 ## ⚠️ Tema - Problema - Solución
 
 **Tema:** Comportamiento de ventas de productos respecto a sus categorías.
 
-**Problema:** No se logra identificar patrones de compra ni productos más rentables porque los datos están dispersos.
+**Problema:** El dueño de una tienda no logra identificar patrones de compra ni productos más rentables porque los datos están dispersos o sin procesar.
 
-**Solución:** Integrar y analizar las bases de datos (clientes, productos, ventas, detalle_ventas) para obtener tendencias como  productos más vendido o productos que más contribuyen por categoría, usando consultas o herramientas como Power BI.
+**Solución:** Integrar y analizar las bases de datos (clientes, productos, ventas, detalle_ventas) para obtener tendencias como  productos más vendido o productos que más contribuyen por categoría, usando consultas o herramientas como Power BI, a partir de un procesamiento de datos compilado en un programa Python.
 
-## Estructura - Tipo - Escala (de la BD)
+## 🏗️ Estructura - Tipo - Escala (de la BD)
 
 **Estructura:** base de datos estructurada (excel) y relacional.
 
@@ -27,14 +35,14 @@
 
 Conforme a lo anterior, las tablas a trabajar son las siguientes:
 
-Tabla Clientes:
+✅ Tabla Clientes:
 * id_cliente (INT) (PK)
 * nombre_cliente (STRING)
 * email (STRING)
 * ciudad (STRING)
 * fecha (DATE)
 
-Detalle_ventas:
+✅ Detalle_ventas:
 * id_venta (INT) (PK)
 * id_producto (INT) (FK)
 * nombre_producto (STRING)
@@ -42,13 +50,13 @@ Detalle_ventas:
 * precio_unitario (INT)
 * importe (INT)
 
-Productos:
+✅ Productos:
 * id_producto (INT) (PK)
 * nombre_producto (STRING)
 * categoría (STRING)
 * precio_unitario (INT)
 
-Ventas:
+✅ Ventas:
 * id_ventas (INT) (PK)
 * fecha (DATE)
 * id_cliente (INT) (FK)
@@ -56,9 +64,7 @@ Ventas:
 * email (STRING)
 * medio_pago (STRING)
 
-## Información - Pasos - Pseudocódigo
-
-<img width="352" height="713" alt="image" src="https://github.com/user-attachments/assets/ecc0df84-485d-4c45-87d4-0649415f3f75" />
+## 📍 Información - Pasos - Pseudocódigo
 
 **Pasos**
 1. Cargar los datos de las BD
@@ -69,6 +75,7 @@ Ventas:
 6. Guardar en porcentaje_participación la división de total_importe/total_generado_cat para cada producto y su categoria respectivamente
 7. Etiquetar cada producto como "Producto más relevante" o "Producto menos relevante" si el producto tiene un porcentaje de participación superior al 80%
 
+**Pseudocódigo**
 ```bash
 INICIO
   Cargar datos de Clientes, Ventas, Productos, Detalle_Ventas
