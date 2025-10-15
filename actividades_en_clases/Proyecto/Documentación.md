@@ -19,9 +19,36 @@
 
 ## Estructura - Tipo - Escala (de la BD)
 
-**Estructura:** base de datos estructurada (excel) y relacional. Se agregan campos como: "Frecuencia_cliente", "Producto_popular". 
+**Estructura:** base de datos estructurada (excel) y relacional. Conforme a lo anterior, las tablas a trabajar son las siguientes:
 
-**Tipo:** OLAP, ya que se usaría para el análisis de datos a partir de históricos y registros. 
+Tabla Clientes:
+* id_cliente (INT) (PK)
+* nombre_cliente (STRING)
+* email (STRING)
+* ciudad (STRING)
+* fecha (DATE)
+
+Detalle_ventas:
+* id_venta (INT) (PK)
+* id_producto (INT) (FK)
+* nombre_producto (STRING)
+* cantidad (INT)
+* precio_unitario (INT)
+* importe (INT)
+
+Productos:
+* id_producto (INT) (PK)
+* nombre_producto (STRING)
+* categoría (STRING)
+* precio_unitario (INT)
+
+Ventas:
+* id_ventas (INT) (PK)
+* fecha (DATE)
+* id_cliente (INT) (FK)
+* nombre_cliente (STRING)
+* email (STRING)
+* medio_pago (STRING)
 
 **Escala:** se espera una escala mediana, ya que esta podría variar según la cantidad de ventas y clientes que interactúen con el sistema.
 
