@@ -1,0 +1,1 @@
+# Instrucciones de Copilot y Registro de Actividades
