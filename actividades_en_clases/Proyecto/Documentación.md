@@ -108,6 +108,9 @@ INICIO
 
 FIN
 ```
+
+*Se adjunta una imágen (Diagrama de flujo.png) con la secuencia de lo propuesto*
+
 ## 🤖 Sugerencias de Copilot
 
 </> Prompt 1: Soy estudiante de Python, crea un programa que pueda mostrar la documentación de forma interactiva, a través de los distintos temas del documento. Las interacciones solo deben ser por consola y a través del ingreso de números.
