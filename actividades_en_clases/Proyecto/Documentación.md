@@ -97,7 +97,7 @@ INICIO
   porcentaje_participacion ← calcular_porcentaje_participacion_producto()
 
   PARA cada producto EN Productos HACER
-      SI procentaje_participacion[producto] > 80% ENTONCES
+      SI procentaje_participacion[producto] > 20% ENTONCES #Ley de Pareto
           producto.etiqueta ← "Producto más rentable"
       SI NO
           producto.etiqueta ← "Producto menos rentable"
