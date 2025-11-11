@@ -11,6 +11,8 @@
 * ⭐ Diana Alva
 * ⭐ Tatiana Pinzón
 
+# Sprint 1
+
 ## ❓ Preguntas Previas
 
 * ¿Qué enfoque queremos abarcar?
@@ -120,3 +122,107 @@ FIN
 </> Prompt 2: Soy colaborador en un grupo de desarrollo, hazme una estructura de documentación a partir de los siguientes temas: [temas], que sea separado por subtemas. Recomienda solo la estructura, no el desarrollo.
 
 * Se siguió la recomendación hecha por la IA, complementando con diagramas y pseudocódigo.
+
+# 🚀 **Sprint 2**
+
+📂 Los datos son manejados mediante el archivo `Manejo_Datos.py`.
+
+---
+
+## 📊 **Información básica**
+
+✅ Se muestran las primeras 4 filas del dataset para una mejor visualización.  
+✅ La base de datos **no tiene valores nulos ni vacíos**.  
+✅ **No hay duplicados:**
+- Clientes verificados por **email** → sin duplicados.  
+- Productos verificados por **nombre** → sin duplicados.  
+
+✂️ Se eliminaron posibles espacios al inicio y final de las columnas tipo *string*.  
+🔍 Los tipos de datos fueron revisados y concuerdan correctamente, por lo que **no fue necesario realizar cambios.**
+
+---
+
+## 📈 **Análisis estadístico**
+
+### 💰 **Importe**
+- Promedio: **7.730**  
+- Mediana: **6.702**  
+- Moda: **4.435**  
+- Mínimo: **272**  
+- Máximo: **24.865**  
+- Distribución: 📈 *sesgada positivamente*
+
+### 📦 **Cantidad Vendida**
+- Promedio: **2.96**  
+- Mediana: **3**  
+- Moda: **2**  
+- Mínimo: **1**  
+- Máxima: **5**  
+- Distribución: ⚖️ *normal o ligeramente sesgada*
+
+### 💵 **Precio Unitario**
+- Promedio: **2.654**  
+- Mediana: **2.512**  
+- Moda: **3.444**  
+- Mínimo: **272**  
+- Máximo: **4.982**  
+- Distribución: 📈 *sesgada positivamente*
+
+---
+
+## 🔗 **Correlaciones**
+
+| Relación | Coeficiente | Interpretación |
+|-----------|--------------|----------------|
+| Importe ↔ Cantidad | **0.599** | Relación directa |
+| Cantidad ↔ Precio Unitario | **-0.074** | Sin relación lineal significativa |
+| Precio Unitario ↔ Importe | **0.679** | Relación directa |
+
+🧩 **Conclusiones:**
+- El **importe** y la **cantidad** varían de forma directa.  
+- La **cantidad** y el **precio unitario** casi no tienen relación lineal.  
+- El **precio unitario** y el **importe** se relacionan directamente.  
+
+---
+
+## ⚠️ **Outliers**
+
+Método usado: **IQR (Rango Intercuartílico)**
+
+| Variable | Outliers detectados |
+|-----------|--------------------|
+| Importe | **7** |
+| Cantidad | **0** |
+| Precio Unitario | **0** |
+
+📊 **Conclusión:**  
+Los outliers se **mantienen**, ya que representan productos con ventas o importes excepcionalmente altos, relevantes para el análisis de rentabilidad.  
+Estos se observan claramente en los **boxplots** generados por el programa.
+
+---
+
+## 📉 **Análisis de resultados**
+
+A partir de los gráficos de barras se obtuvo:
+
+**🏆 Productos con mayor importe total:**
+1. Desodorante Aerosol  
+2. Queso Rallado 150g  
+3. Pizza Congelada Muzzarella  
+4. Ron 700 ml  
+5. Yerba Mate Suave 1KG  
+
+**📦 Productos más vendidos (cantidad):**
+1. Salsa de Tomate 500g  
+2. Queso Rallado 150g  
+3. Hamburguesas Congeladas x4  
+4. Vino Blanco 750ml  
+5. Aceitunas Verdes 200g  
+
+---
+
+## 🔜 **Próximos pasos**
+
+- 🔹 Separar los productos por **categorías**.  
+- 🔹 Analizar el **método de pago** más utilizado en los 5 productos más vendidos.  
+- 🔹 Guardar bases de datos con información procesada y relevante.
