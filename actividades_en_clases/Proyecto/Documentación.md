@@ -226,3 +226,4 @@ A partir de los gráficos de barras se obtuvo:
 - 🔹 Separar los productos por **categorías**.  
 - 🔹 Analizar el **método de pago** más utilizado en los 5 productos más vendidos.  
 - 🔹 Guardar bases de datos con información procesada y relevante.
+- 🔹 Agregar columna Edad para ver rangos etarios principales según categoría.
